@@ -1,0 +1,61 @@
+/* App.css */
+body {
+  background-color: #111810; /* Dark background color */
+  color: #f0f0f0; /* Light text color */
+  font-family: sans-serif; /* A common, readable font */
+  margin: 0; /* Reset default body margin */
+  padding: 0; /* Reset default body padding */
+}
+
+.App {
+  text-align: left; /* Center the main content */
+}
+
+h1 {
+  margin: 0;
+}
+
+main.container {
+  margin-top: 20px; /* Adjust top margin for better spacing */
+  padding: 20px; /* Add some padding around the main content */
+}
+
+.tile-content {
+  background-color: #1e1e1e; /* Slightly lighter dark background for tiles */
+  color: #f0f0f0;
+  border: 1px solid #333; /* Add a subtle dark border around the tile */
+  border-radius: 8px; /* Add rounded corners for a softer look */
+  padding: 20px;
+  margin-bottom: 15px; /* Add margin between tiles */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+}
+
+.tile-heading-container {
+  border: none; /* Border for the heading container */
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 10px; /* Margin below the heading container */
+}
+
+.tile-heading-container {
+  color: #008f13; /* Style the heading text */
+  margin: 0; /* Remove default margin from the h2 element */
+}
+
+.tile-heading-container h2, h1 {
+  font-weight: bold;
+}
+
+.tile-body-container {
+  border: 1px solid #333333; /* Border for the body container */
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 0px; /* Margin above the body container */
+}
+
+.tile-body-container p {
+  line-height: 1.6; /* Improve readability of paragraphs */
+  margin: 0; /* Remove default margin from the p element */
+}
+
+/* You can adjust these further if needed */
